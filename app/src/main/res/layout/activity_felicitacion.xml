@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Felicitacion">
+
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/fondo"
+        android:contentDescription="@string/fondo" />
+    <ImageView
+        android:id="@+id/reno1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="500dp"
+        app:srcCompat="@drawable/reno"
+        android:contentDescription="@string/reno" />
+    <ImageView
+        android:id="@+id/reno2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="500dp"
+        app:srcCompat="@drawable/reno"
+        android:contentDescription="@string/reno" />
+    <ImageView
+        android:id="@+id/reno3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="500dp"
+        android:contentDescription="@string/reno"
+        app:srcCompat="@drawable/reno" />
+    <ImageView
+        android:id="@+id/reno4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="500dp"
+        app:srcCompat="@drawable/reno"
+        android:contentDescription="@string/reno" />
+    <ImageView
+        android:id="@+id/reno5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="500dp"
+        app:srcCompat="@drawable/reno"
+        android:contentDescription="@string/reno"/>
+    <ImageView
+        android:id="@+id/reno6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="500dp"
+        app:srcCompat="@drawable/reno"
+        android:contentDescription="@string/reno"/>
+
+    <ImageView
+        android:id="@+id/campana1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="440dp"
+        app:srcCompat="@drawable/campana"
+        android:contentDescription="@string/campana"/>
+    <ImageView
+        android:id="@+id/campana2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="440dp"
+        app:srcCompat="@drawable/campana"
+        android:contentDescription="@string/campana"/>
+    <ImageView
+        android:id="@+id/campana3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="440dp"
+        app:srcCompat="@drawable/campana"
+        android:contentDescription="@string/campana"/>
+    <ImageView
+        android:id="@+id/campana4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="440dp"
+        app:srcCompat="@drawable/campana"
+        android:contentDescription="@string/campana"/>
+    <ImageView
+        android:id="@+id/campana5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="440dp"
+        app:srcCompat="@drawable/campana"
+        android:contentDescription="@string/campana"/>
+
+
+    <ImageView
+        android:id="@+id/boy1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/boy"
+        android:contentDescription="@string/boy" />
+    <ImageView
+        android:id="@+id/girl1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/girl"
+        android:contentDescription="@string/girl"/>
+    <ImageView
+        android:id="@+id/boy2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/boy"
+        android:contentDescription="@string/boy"/>
+    <ImageView
+        android:id="@+id/girl2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/girl"
+        android:contentDescription="@string/girl"/>
+    <ImageView
+        android:id="@+id/boy3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/boy"
+        android:contentDescription="@string/boy"/>
+    <ImageView
+        android:id="@+id/girl3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/girl"
+        android:contentDescription="@string/girl"/>
+
+    <TextView
+        android:id="@+id/feliz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/christmaseve"
+        android:layout_marginStart="10sp"
+        android:text="@string/feliz"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/h1"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    <TextView
+        android:id="@+id/navidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/christmaseve"
+        android:layout_marginStart="10sp"
+        android:text="@string/navidad"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/h1"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/christmaseve"
+        android:layout_marginStart="10sp"
+        android:text="@string/prospero"
+        android:textAlignment="center"
+        android:textColor="@color/h2"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/christmaseve"
+        android:layout_marginStart="80sp"
+        android:text="@string/añonuevo"
+        android:textAlignment="center"
+        android:textColor="@color/h2"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+
+
+</RelativeLayout>

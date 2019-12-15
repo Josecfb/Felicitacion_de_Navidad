@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Felicitación</string>
+    <string name="feliz">Feliz</string>
+    <string name="navidad">Navidad</string>
+    <string name="prospero">Y feliz</string>
+    <string name="añonuevo">año nuevo</string>
+    <string name="cargando">Cargando...</string>
+    <string name="fondo">Fondo</string>
+    <string name="reno">reno</string>
+    <string name="campana">campana</string>
+    <string name="boy">boy</string>
+    <string name="girl">girl</string>
+    <string name="adorno">adorno</string>
+</resources>
