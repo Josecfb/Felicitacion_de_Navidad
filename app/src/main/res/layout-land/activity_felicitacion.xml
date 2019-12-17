@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Felicitacion">
+
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/fondo"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/fondo" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_weight="1"
+            tools:targetApi="o">
+            <ImageView
+                android:id="@+id/reno11"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp"
+                app:srcCompat="@drawable/reno"
+                android:contentDescription="@string/reno" />
+            <ImageView
+                android:id="@+id/reno12"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp"
+                app:srcCompat="@drawable/reno"
+                android:contentDescription="@string/reno" />
+            <ImageView
+                android:id="@+id/reno13"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp"
+                app:srcCompat="@drawable/reno"
+                android:contentDescription="@string/reno" />
+            <ImageView
+                android:id="@+id/reno14"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp"
+                app:srcCompat="@drawable/reno"
+                android:contentDescription="@string/reno" />
+            <ImageView
+                android:id="@+id/reno15"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp"
+                app:srcCompat="@drawable/reno"
+                android:contentDescription="@string/reno" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_weight="1"
+            tools:targetApi="o">
+            <ImageView
+                android:id="@+id/campana11"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="15dp"
+                app:srcCompat="@drawable/campana"
+                android:contentDescription="@string/campana" />
+            <ImageView
+                android:id="@+id/campana12"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="15dp"
+                app:srcCompat="@drawable/campana"
+                android:contentDescription="@string/campana" />
+            <ImageView
+                android:id="@+id/campana13"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="15dp"
+                app:srcCompat="@drawable/campana"
+                android:contentDescription="@string/campana" />
+            <ImageView
+                android:id="@+id/campana14"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="15dp"
+                app:srcCompat="@drawable/campana"
+                android:contentDescription="@string/campana" />
+            <ImageView
+                android:id="@+id/campana15"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="15dp"
+                app:srcCompat="@drawable/campana"
+                android:contentDescription="@string/campana" />
+            <ImageView
+                android:id="@+id/campana16"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="15dp"
+                app:srcCompat="@drawable/campana"
+                android:contentDescription="@string/campana" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginVertical="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:targetApi="o">
+            <ImageView
+                android:id="@+id/boy11"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/boy"
+                android:contentDescription="@string/boy"
+                tools:ignore="NestedWeights" />
+            <ImageView
+                android:id="@+id/girl11"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/girl"
+                android:contentDescription="@string/girl"/>
+            <ImageView
+                android:id="@+id/boy12"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/boy"
+                android:contentDescription="@string/boy" />
+            <ImageView
+                android:id="@+id/girl12"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/girl"
+                android:contentDescription="@string/girl"/>
+            <ImageView
+                android:id="@+id/boy13"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/boy"
+                android:contentDescription="@string/boy" />
+            <ImageView
+                android:id="@+id/girl13"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/girl"
+                android:contentDescription="@string/girl"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            tools:targetApi="o">
+            <ImageView
+                android:id="@+id/arbol1"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/arbol"
+                android:contentDescription="@string/arbol" />
+
+            <TextView
+                android:id="@+id/l1"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/christmaseve"
+                android:text="@string/f"
+                android:textAlignment="center"
+                android:textColor="@color/h1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/l2"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/christmaseve"
+                android:text="@string/e"
+                android:textAlignment="center"
+                android:textColor="@color/h1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/l3"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/christmaseve"
+                android:text="@string/l"
+                android:textAlignment="center"
+                android:textColor="@color/h1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/l4"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/christmaseve"
+                android:text="@string/i"
+                android:textAlignment="center"
+                android:textColor="@color/h1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/l5"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/christmaseve"
+                android:text="@string/z"
+                android:textAlignment="center"
+                android:textColor="@color/h1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/arbol2"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/arbol"
+                android:contentDescription="@string/arbol" />
+
+
+            <TextView
+                android:id="@+id/l6"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/christmaseve"
+                android:text="@string/n"
+                android:textAlignment="center"
+                android:textColor="@color/h1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/l7"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/christmaseve"
+                android:text="@string/a"
+                android:textAlignment="center"
+                android:textColor="@color/h1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/l8"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/christmaseve"
+                android:text="@string/v"
+                android:textAlignment="center"
+                android:textColor="@color/h1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/l9"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/christmaseve"
+                android:text="@string/i"
+                android:textAlignment="center"
+                android:textColor="@color/h1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/l10"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/christmaseve"
+                android:text="@string/d"
+                android:textAlignment="center"
+                android:textColor="@color/h1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/l11"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/christmaseve"
+                android:text="@string/a"
+                android:textAlignment="center"
+                android:textColor="@color/h1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/l12"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/christmaseve"
+                android:text="@string/d"
+                android:textAlignment="center"
+                android:textColor="@color/h1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/arbol3"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/arbol"
+                android:contentDescription="@string/arbol" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginVertical="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:targetApi="o">
+            <ImageView
+                android:id="@+id/boy21"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/boy"
+                android:contentDescription="@string/boy" />
+            <ImageView
+                android:id="@+id/girl21"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/girl"
+                android:contentDescription="@string/girl"/>
+            <ImageView
+                android:id="@+id/boy22"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/boy"
+                android:contentDescription="@string/boy" />
+            <ImageView
+                android:id="@+id/girl22"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/girl"
+                android:contentDescription="@string/girl"/>
+            <ImageView
+                android:id="@+id/boy23"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/boy"
+                android:contentDescription="@string/boy" />
+            <ImageView
+                android:id="@+id/girl23"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/girl"
+                android:contentDescription="@string/girl"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_weight="1"
+            tools:targetApi="o">
+            <ImageView
+                android:id="@+id/campana21"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="15dp"
+                app:srcCompat="@drawable/campana"
+                android:contentDescription="@string/campana" />
+            <ImageView
+                android:id="@+id/campana22"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="15dp"
+                app:srcCompat="@drawable/campana"
+                android:contentDescription="@string/campana" />
+            <ImageView
+                android:id="@+id/campana23"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="15dp"
+                app:srcCompat="@drawable/campana"
+                android:contentDescription="@string/campana" />
+            <ImageView
+                android:id="@+id/campana24"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="15dp"
+                app:srcCompat="@drawable/campana"
+                android:contentDescription="@string/campana" />
+            <ImageView
+                android:id="@+id/campana25"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="15dp"
+                app:srcCompat="@drawable/campana"
+                android:contentDescription="@string/campana" />
+            <ImageView
+                android:id="@+id/campana26"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="15dp"
+                app:srcCompat="@drawable/campana"
+                android:contentDescription="@string/campana" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_weight="1"
+            tools:targetApi="o">
+            <ImageView
+                android:id="@+id/reno21"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp"
+                app:srcCompat="@drawable/reno"
+                android:contentDescription="@string/reno" />
+            <ImageView
+                android:id="@+id/reno22"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp"
+                app:srcCompat="@drawable/reno"
+                android:contentDescription="@string/reno" />
+            <ImageView
+                android:id="@+id/reno23"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp"
+                app:srcCompat="@drawable/reno"
+                android:contentDescription="@string/reno" />
+            <ImageView
+                android:id="@+id/reno24"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp"
+                app:srcCompat="@drawable/reno"
+                android:contentDescription="@string/reno" />
+            <ImageView
+                android:id="@+id/reno25"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp"
+                app:srcCompat="@drawable/reno"
+                android:contentDescription="@string/reno" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

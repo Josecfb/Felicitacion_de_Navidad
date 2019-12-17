@@ -1,14 +1,23 @@
 <resources>
     <string name="app_name">Felicitación</string>
-    <string name="feliz">Feliz</string>
-    <string name="navidad">Navidad</string>
-    <string name="prospero">Y feliz</string>
-    <string name="añonuevo">año nuevo</string>
     <string name="cargando">Cargando...</string>
-    <string name="fondo">Fondo</string>
+    <string name="fondo">fondo</string>
     <string name="reno">reno</string>
     <string name="campana">campana</string>
     <string name="boy">boy</string>
     <string name="girl">girl</string>
-    <string name="adorno">adorno</string>
+    <string name="adorno">bola</string>
+    <string name="arbol">arbol</string>
+    <string name="noel">noel</string>
+    <string name="f">f</string>
+    <string name="e">e</string>
+    <string name="l">l</string>
+    <string name="i">i</string>
+    <string name="z">z</string>
+    <string name="n">n</string>
+    <string name="a">a</string>
+    <string name="v">v</string>
+
+    <string name="d">d</string>
+
 </resources>

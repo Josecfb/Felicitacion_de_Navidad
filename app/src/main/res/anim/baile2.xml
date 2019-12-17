@@ -9,8 +9,8 @@
     <rotate
         android:pivotY="0%"
         android:pivotX="50%"
-        android:toDegrees="-90"
-        android:fromDegrees="90"
+        android:toDegrees="-60"
+        android:fromDegrees="60"
         android:duration="980"
         android:repeatMode="reverse"
         android:repeatCount="infinite"
